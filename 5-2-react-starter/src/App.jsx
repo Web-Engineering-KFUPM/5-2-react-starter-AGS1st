@@ -11,6 +11,15 @@ function App() {
       <main className="dashboard-main">
         <div className="cards-container">
           {/* TODO: Import and render StudentCard components here */}
+          function app() {
+            return(
+              <div>
+                <h1>Student Info</h1>
+                <StudentCard name="" id="" dept=""/>
+                <StudentCard name="" id="" dept=""/>
+              </div>
+            );
+          }
         </div>
       </main>
     </div>
